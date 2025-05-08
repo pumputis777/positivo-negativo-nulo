@@ -11,24 +11,23 @@ using namespace std;
 int main()
 {
      // Declarar la variable para el número ingresado
-    int numero;
+    int numero; // declaro una variable de tipo entero
 
-    // Solicitar al usuario que ingrese un número entero
+    // Solicita al usuario que ingrese un número entero
     cout << "Ingrese un número entero: ";
-    cin >> numero;
+    cin >> numero; // guarda el numero que ingreso el usuario en la variable numero
 
-    // Verificar si el número es positivo, negativo o nulo
-    if (numero > 0) 
+    if (numero > 0) // si se cumple esta condicion se va a ejecutar lo que esta entre las llaves
     {
-        cout << "El número es positivo." << endl;
+        cout << "El número es positivo." << endl; // si se cumplio la condicion mostrara el texto en la consola
     }
-    else if (numero < 0) 
+    else if (numero < 0) // si no se cumplio la condicion anterior pero si se cumple esta condicion se va a ejecutar lo que esta en estas llaves
     {
-        cout << "El número es negativo." << endl;
+        cout << "El número es negativo." << endl; // si se cumple esta condicion mostrara el texto en la consola
     } 
-    else
+    else // si no se cumple ninguna de las condiciones se ejecutara lo que esta en estas llaves 
     {
-        cout << "El número es nulo (cero)." << endl;
+        cout << "El número es nulo (cero)." << endl; // si no se cumplio ningunas de las condiciones se mostrara el texto en la consola
     }
 
 
